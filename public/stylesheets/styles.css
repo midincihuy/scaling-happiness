@@ -67,3 +67,7 @@ footer p {
   padding: 10px;
   text-align: center;
 }
+/* posts.liquid */
+body.page-posts div.post-listing {
+  margin-bottom: 20px;
+}
