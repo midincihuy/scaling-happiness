@@ -6,3 +6,16 @@
 # hello_world:
 #   en: Hello world !
 #   fr: Bonjour le monde !
+home_page:
+  en: Home 
+  ja: Beranda
+
+read_more:
+  en: Read More
+  ja: もっと見る
+
+en:
+  ja: English
+
+ja:
+  en: Jepang
