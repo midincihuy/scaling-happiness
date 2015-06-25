@@ -19,3 +19,7 @@ en:
 
 ja:
   en: Jepang
+
+posted_at_format:
+  en: 'Posted at %-I:%M %p on %B, %-d %Y'
+  ja: '%Y年%-m月%-d日 %H:%M'

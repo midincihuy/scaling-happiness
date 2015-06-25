@@ -26,12 +26,12 @@ order_by: manually
 # public_submission_accounts: ['john@example.com']
 
 # A list describing each field
-fields: 
+fields:
 - caption: # The lowercase, underscored name of the field
     label: Caption # Human readable name of the field
     type: string
     required: true
-    localized: false
+    localized: true
 
 - file: # The lowercase, underscored name of the field
     label: File # Human readable name of the field
@@ -39,9 +39,9 @@ fields:
     required: true
     localized: false
 
-- post: # The lowercase, underscored name of the field
+- post: # Name of the field
     label: Post # Human readable name of the field
     type: belongs_to
-    required: false
+    required: true
     localized: false
     class_name: posts
