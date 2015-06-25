@@ -67,3 +67,12 @@ fields:
     hint: The full post text
     localized: false
     text_formatting: html # html (uses rich text editor) or text (uses plain text editor)
+    
+- photos:
+    label: photos
+    type: has_many
+    required: false
+    localized: false
+    class_name: photos
+    inverse_of: post
+    ui_enabled: true
